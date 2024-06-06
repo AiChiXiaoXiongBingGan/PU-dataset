@@ -1,0 +1,9 @@
+关注公众号：故障诊断与寿命预测工具箱
+获得更多数据集和智能算法工具！！！
+
+数据集网址
+https://mb.uni-paderborn.de/kat/forschung/datacenter/bearing-datacenter/ 
+需要挂VPN很慢，我给大家截图了
+
+
+
