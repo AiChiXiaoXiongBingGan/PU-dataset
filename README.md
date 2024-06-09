@@ -1,23 +1,23 @@
-# PU 数据集简介
+# 🌟 Introduction to the PU Dataset 🌟
 
-德国 Paderborn 大学的轴承故障诊断数据集提供了丰富的轴承故障信号数据。数据集涵盖了多种类型的轴承故障，如内圈、外圈和滚动体故障。与其他数据集相比，Paderborn 数据集的特点是包含了大量的电机驱动系统故障数据，为研究者提供了一个较为全面的轴承故障诊断实验平台。
+The Paderborn University (PU) Bearing Fault Diagnosis Dataset from Germany provides a wealth of bearing fault signal data. This dataset encompasses various types of bearing faults, such as inner ring, outer ring, and rolling element faults. Compared to other datasets, the PU dataset is distinguished by its inclusion of extensive motor-driven system fault data, offering researchers a comprehensive experimental platform for bearing fault diagnosis.
 
-## 数据集概览
+## 📊 Dataset Overview
 
-PU 数据集分为多个子集，每个子集具有不同的故障类型和实验条件。以下是主要的子数据集介绍：
+The PU dataset is divided into multiple subsets, each featuring different fault types and experimental conditions. The primary subsets are described as follows:
 
-数据集中组件缺陷的原因包括人为原因和加速寿命测试。模块化试验台由五台组成部件：转矩轴、轴承测试模块、飞轮、电机等负载电机。
+Component defects in the dataset arise from both artificial causes and accelerated life testing. The modular test bench consists of five main components: torque shaft, bearing test module, flywheel, motor, and load motor.
 
-实验工况如 N15_M01_F10 表示轴承转速为 1500 rpm，轴承承受的径向力为 1000 N，系统负载转矩为 0.1 Nm。每种实验情况重复 20 次，采样频率为 64 千赫，每次采集时间为 4 秒。我们从加速寿命试验中产生的 13 个非人为轴承损坏样本中选择数据进行实验验证。
+Experimental conditions, such as N15_M01_F10, indicate a bearing speed of 1500 rpm, a radial load of 1000 N, and a system load torque of 0.1 Nm. Each experimental condition is repeated 20 times, with a sampling frequency of 64 kHz and a collection duration of 4 seconds per sample. Data for experimental validation are selected from 13 non-artificial bearing damage samples generated from accelerated life tests.
 
-### 数据采集方法
+### 📡 Data Collection Methods
 
-PU 数据集中的振动信号数据均通过高精度加速度传感器采集，并使用数据采集系统进行记录。实验过程中，研究人员设置了多种不同的运行工况，包括转速、载荷、润滑和温度等，以确保数据的多样性和代表性。所有数据经过预处理，去除了噪声和干扰信号，保证了数据的质量。
+Vibration signal data in the PU dataset are collected using high-precision accelerometers and recorded with a data acquisition system. During experiments, researchers set various operating conditions, including speed, load, lubrication, and temperature, to ensure the diversity and representativeness of the data. All data are preprocessed to remove noise and interference signals, ensuring data quality.
 
-### 数据格式
+### 💾 Data Format
 
-PU 数据集通常以 MAT 文件格式存储，每个文件包含一个或多个通道的振动信号数据。每个通道的数据为一个时间序列，表示在特定时间内加速度传感器采集到的振动信号幅值。此外，每个数据文件还附带了实验工况的说明，如故障类型、转速、载荷等信息。
+The PU dataset is typically stored in MAT file format, with each file containing vibration signal data for one or more channels. Each channel's data is a time series representing the amplitude of vibration signals collected by accelerometers over a specific time period. Additionally, each data file includes descriptions of the experimental conditions, such as fault type, speed, and load.
 
-### 应用场景
+### 🚀 Application Scenarios
 
-PU 数据集广泛应用于旋转机械故障诊断、状态监测和预测性维护等领域。研究人员通过分析振动信号中的故障特征，可以开发出高效的故障诊断算法，提高设备的可靠性和安全性。近年来，PU 数据集也被用于机器学习和深度学习算法的训练和测试，为智能故障诊断技术的发展提供了宝贵的实验数据。
+The PU dataset is widely used in fields such as rotating machinery fault diagnosis, condition monitoring, and predictive maintenance. Researchers analyze fault characteristics in vibration signals to develop efficient fault diagnosis algorithms, enhancing equipment reliability and safety. In recent years, the PU dataset has also been utilized for training and testing machine learning and deep learning algorithms, providing valuable experimental data for the advancement of intelligent fault diagnosis technologies.
